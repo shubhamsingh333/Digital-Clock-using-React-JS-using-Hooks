@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App";
+
 
 const App = () => {
   let time = new Date().toLocaleTimeString();
