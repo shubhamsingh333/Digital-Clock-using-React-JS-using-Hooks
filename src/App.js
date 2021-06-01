@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./style.css"
 
 const App = () => {
   let time = new Date().toLocaleTimeString();
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-      <h1> {ctime} </h1>
+      <h1 className ="watch"> {ctime} </h1>
       {/* <button onClick={UpdateTime}>get time</button> */}
     </>
   );

@@ -1,24 +1,28 @@
-h1,
-p {
-  font-family: Lato;
+.watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #D9D7DD;
 }
 
-div {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.watch{
+  border-radius: 100%;
+  background: #ffffff;
+  font-family: "Montserrat";
+  border: 5px solid white;
+  box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
   align-items: center;
 }
 
-button {
-  padding: 12px 20px;
-  background: #9b59b6;
-  color: white;
-  border: 2px solid #ecf0f1;
-  outline: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  cursor: pointer;
+.watch {
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  align-items: center;
 }
+
+
+
